@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .landing-container {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #ffcc00;
+  }
+
+  .trailer {
+    margin: 20px 0;
+  }
+
+  .cta-button {
+    background-color: #ff0000;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+  .cta-button:hover {
+    background-color: #cc0000;
+  }
+
+  .synopsis {
+    font-size: 1.1rem;
+    margin: 15px 0;
+  }
+
+  .release-info {
+    font-size: 1.2rem;
+    margin: 15px 0;
+    font-weight: bold;
+  }
+
+  .testimonials {
+    margin: 20px 0;
+    font-style: italic;
+    color: #cccccc;
+  }
+  .social-icons {
+display: flex;
+justify-content: center; /* Centra los iconos horizontalmente */
+gap: 20px; /* Espacio entre los iconos */
+margin-top: 20px;
+margin-left: 10px;
+}
+
+.social-icons a {
+text-decoration: none;
+color: #333; /* Color por defecto */
+font-size: 2em; /* Tamaño del icono */
+transition: color 0.3s ease; /* Efecto de transición en el color */
+}
+
+.social-icons a:hover {
+color: #e85860; /* Cambia de color al pasar el mouse */
+}
